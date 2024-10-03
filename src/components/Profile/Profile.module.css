@@ -1,0 +1,71 @@
+.profile {
+    width: 400px;
+    background-color: #fff;
+    font-family:  Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px #a9a9a9;
+}
+.description {
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-left: 1px solid thistle;
+    border-right: 1px solid thistle;
+    border-top: 1px solid thistle;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.avatar {
+    width: 100px;
+    background-color: #9a6c6c;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+.name {
+    font-weight: bold;
+    font-size: 38px;
+}
+.tag {
+    color: darkgray;
+}
+.location {
+    color: darkgray;
+}
+.stats {
+    display: flex;
+    background-color: #dbdbdb;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px solid thistle;
+}
+.stats > li {
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: background-color 3s cubic-bezier(0.075, 0.82, 0.165, 1), color 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.stats > li:first-child {
+    border-right: 1px solid thistle;
+}
+.stats > li:last-child {
+    border-left: 1px solid thistle;
+}
+.label {
+    color: rgb(121, 121, 121);
+}
+.quantity {
+    font-weight: bold;
+}
+.stats > li:focus, .stats > li:hover {
+    background-color: #fdfdfd;
+    color: rgb(27, 169, 212);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
